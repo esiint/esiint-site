@@ -128,7 +128,7 @@ export default function HomePage() {
                 <p className="mt-2 text-xs uppercase tracking-[0.16em] text-white/50">{course.level}</p>
                 <p className="mt-4 text-sm text-white/75">{course.summary}</p>
                 <div className="mt-6">
-                  <Link href={course.href} className="link-button-secondary">Ver programa completo</Link>
+                  <Link href={course.href as any} className="link-button-secondary">Ver programa completo</Link>
                 </div>
               </div>
             ))}
