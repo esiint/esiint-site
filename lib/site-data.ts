@@ -1,3 +1,12 @@
+import type { Route } from "next";
+
+type HomeCourse = {
+  title: string;
+  level: string;
+  summary: string;
+  href: Route;
+};
+
 export const navItems = [
   { href: "#inicio", label: "Início" },
   { href: "#metodo", label: "Método" },
@@ -7,7 +16,7 @@ export const navItems = [
   { href: "#contato", label: "Contato" }
 ];
 
-export const homeCourses = [
+export const homeCourses: HomeCourse[] = [
   {
     title: "Observatórios & Centros de Evidência na Prática",
     level: "Intermediário/Avançado",
