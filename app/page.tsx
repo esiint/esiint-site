@@ -15,15 +15,12 @@ export default function HomePage() {
             <div>
               <span className="badge">Brasil 🇧🇷 + Portugal 🇵🇹 · Inteligência aplicada</span>
               <h1 className="mt-5 max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
-                Melhor feito do que perfeito:
-                <span className="bg-gradient-to-r from-cyan-300 to-emerald-300 bg-clip-text text-transparent">
-                  {" "}a ESIINT já está pronta para existir.
-                </span>
-              </h1>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
-                Estrutura institucional, cursos, observatórios, prevenção 4.0 e projetos
-                orientados por evidências para qualificar decisões e melhorar a vida real.
-              </p>
+  O futuro que desejamos começa com as escolhas que fazemos agora.
+</h1>
+
+<p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
+  A ESIINT conecta inteligência, evidências e tecnologia para apoiar decisões públicas e institucionais mais eficazes — onde a vida real acontece.
+</p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href="#cursos" className="link-button-primary">Ver cursos & trilhas</a>
                 <a href="#observatorio" className="link-button-secondary">Explorar o Observatório</a>
