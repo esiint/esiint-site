@@ -13,13 +13,18 @@ export default function HomePage() {
         <section id="inicio" className="section-shell pt-14 md:pt-20">
           <div className="grid items-center gap-10 md:grid-cols-[1.2fr_.8fr]">
             <div>
-              <span className="badge">Brasil 🇧🇷 + Portugal 🇵🇹 · Inteligência aplicada</span>
+              <span className="badge">🌍 Brasil • Portugal • Mundo</span>
               <h1 className="mt-5 max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
-  O futuro que desejamos começa com as escolhas que fazemos agora.
+  ESIINT
 </h1>
-
+<p className="mt-4 text-xl font-medium text-violet-300 sm:text-2xl">
+  Escola de Inteligência, Inovação e Tecnologia
+</p>
 <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
-  A ESIINT conecta inteligência, evidências e tecnologia para apoiar decisões públicas e institucionais mais eficazes — onde a vida real acontece.
+  Transformando conhecimento em decisões que melhoram a vida das pessoas.
+</p>
+              <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
+  Conectamos ciência, tecnologia e inteligência territorial para construir cidades mais seguras, resilientes e sustentáveis.
 </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href="#cursos" className="link-button-primary">Ver cursos & trilhas</a>
