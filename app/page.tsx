@@ -65,7 +65,9 @@ export default function HomePage() {
     Projetos Estratégicos
   </a>
 
-</div>         <div className="card p-6">
+</div>   
+              
+<div className="card p-6">
               <p className="eyebrow">Mini-manifesto ESIINT</p>
               <h2 className="mt-2 text-2xl font-semibold">
                 Inteligência que evolui. Evidência que orienta. Prevenção que protege.
