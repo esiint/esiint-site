@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import { ArrowRight, ShieldCheck, BookOpenText, Globe2, Radar, BarChart3, Landmark } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
@@ -8,7 +7,7 @@ import { homeCourses, observatorioModules } from "@/lib/site-data";
 
 export default function HomePage() {
   return (
-   <React.Fragment>
+   <div>
       <SiteHeader />
       <main>
         <section
@@ -204,7 +203,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-           </main>
-    </React.Fragment>
+     </main>
+   </div>
   );
 }
