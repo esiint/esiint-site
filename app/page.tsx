@@ -6,8 +6,8 @@ import { SectionTitle } from "@/components/section-title";
 import { homeCourses, observatorioModules } from "@/lib/site-data";
 
 export default function HomePage() {
-  return (
-   <div>
+return (
+  <>
       <SiteHeader />
       <main>
         <section
@@ -203,7 +203,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-     </main>
-   </div>
+      </main>
+    </>
   );
 }
