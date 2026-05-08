@@ -10,28 +10,62 @@ export default function HomePage() {
     <>
       <SiteHeader />
       <main>
-        <section id="inicio" className="section-shell pt-14 md:pt-20">
+        <section
+  id="inicio"
+  className="relative overflow-hidden section-shell pt-20 md:pt-32"
+>
+         <div className="absolute inset-0 -z-10 overflow-hidden">
+
+  {/* Gradiente base */}
+  <div className="absolute inset-0 bg-[#050816]" />
+
+  {/* Glow superior */}
+  <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl" />
+
+  {/* Glow lateral */}
+  <div className="absolute right-0 top-40 h-[400px] w-[400px] rounded-full bg-violet-500/10 blur-3xl" />
+
+  {/* Glow inferior */}
+  <div className="absolute bottom-0 left-20 h-[300px] w-[300px] rounded-full bg-blue-500/10 blur-3xl" />
+
+  {/* Grid tecnológico */}
+  <div
+    className="absolute inset-0 opacity-[0.06]"
+    style={{
+      backgroundImage:
+        "linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px)",
+      backgroundSize: "80px 80px",
+    }}
+  />
+
+</div>
           <div className="grid items-center gap-10 md:grid-cols-[1.2fr_.8fr]">
             <div>
               <span className="badge">🌍 Brasil • Portugal • Mundo</span>
-              <h1 className="mt-5 max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
-  ESIINT
-</h1>
-<p className="mt-4 text-xl font-medium text-violet-300 sm:text-2xl">
-  Escola de Inteligência, Inovação e Tecnologia
-</p>
-<p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
+              <h1 className="mt-6 max-w-5xl text-5xl font-black tracking-tight text-white md:text-7xl">
   Transformando conhecimento em decisões que melhoram a vida das pessoas.
-</p>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
+</h1>
+<p className="mt-8 max-w-3xl text-lg leading-8 text-white/75 md:text-xl">
   Conectamos ciência, tecnologia e inteligência territorial para construir cidades mais seguras, resilientes e sustentáveis.
 </p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <a href="#cursos" className="link-button-primary">Ver cursos & trilhas</a>
-                <a href="#observatorio" className="link-button-secondary">Explorar o Observatório</a>
-              </div>
-            </div>
-            <div className="card p-6">
+
+             <div className="mt-10 flex flex-wrap gap-4">
+
+  <a
+    href="#sobre"
+    className="rounded-xl bg-cyan-400 px-6 py-3 text-base font-semibold text-black transition hover:bg-cyan-300"
+  >
+    Conheça a ESIINT
+  </a>
+
+  <a
+    href="#projetos"
+    className="rounded-xl border border-white/15 bg-white/5 px-6 py-3 text-base font-semibold text-white backdrop-blur transition hover:bg-white/10"
+  >
+    Projetos Estratégicos
+  </a>
+
+</div>         <div className="card p-6">
               <p className="eyebrow">Mini-manifesto ESIINT</p>
               <h2 className="mt-2 text-2xl font-semibold">
                 Inteligência que evolui. Evidência que orienta. Prevenção que protege.
