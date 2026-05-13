@@ -12,7 +12,7 @@ return (
       <main>
         <section
   id="inicio"
-  className="relative overflow-hidden section-shell pt-20 md:pt-32"
+  className="relative overflow-hidden section-shell pt-20 md:pt-32" 
 >
          <div className="absolute inset-0 -z-10 overflow-hidden">
 
